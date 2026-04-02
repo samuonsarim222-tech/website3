@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Flower Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./shop.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Flower Shop</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="search-box">
+                <input type="text" placeholder="Search flowers...">
+                <i class="fas fa-search"></i>
+            </div>
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="Register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="page-header" style="margin-top: 40px;">
+        <h1>Your Shopping Cart</h1>
+        <p>Review your beautiful selections before checkout</p>
+    </div>
+
+    <div class="cart-container" style="padding-top: 0;">
+        
+        <div class="cart-items-wrapper">
+            
+            <div class="cart-item">
+                <img src="https://i.pinimg.com/736x/68/01/26/6801265a5b4f9add4586a212df391789.jpg" alt="Soft Pink Peonies" class="item-image">
+                <div class="item-info">
+                    <h3 class="item-title">Soft Pink Peonies</h3>
+                    <p class="item-price">$15.00</p>
+                    <div class="qty-controls">
+                        <button class="qty-btn"><i class="fas fa-minus"></i></button>
+                        <span class="qty-number">1</span>
+                        <button class="qty-btn"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="item-total">$15.00</div>
+                <button class="btn-remove" title="Remove Item"><i class="fas fa-trash-alt"></i></button>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://i.pinimg.com/736x/2c/68/6d/2c686da4e4981c4050b263d44e4322f4.jpg" alt="White Lilies" class="item-image">
+                <div class="item-info">
+                    <h3 class="item-title">Pure White Lilies</h3>
+                    <p class="item-price">$15.00</p>
+                    <div class="qty-controls">
+                        <button class="qty-btn"><i class="fas fa-minus"></i></button>
+                        <span class="qty-number">2</span>
+                        <button class="qty-btn"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="item-total">$30.00</div>
+                <button class="btn-remove" title="Remove Item"><i class="fas fa-trash-alt"></i></button>
+            </div>
+
+        </div>
+
+        <div class="order-summary">
+            <h3 class="summary-title">Order Summary</h3>
+            
+            <div class="summary-row">
+                <span>Subtotal (3 items)</span>
+                <span>$40.00</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span>$5.00</span>
+            </div>
+            
+            <div class="summary-total">
+                <span>Total Amount</span>
+                <span class="total-amount">$45.00</span>
+            </div>
+            
+            <a href="#" class="btn-checkout">Proceed to Checkout <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">Flower Shop</div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="test.js"></script>
+
+</body>
+</html>
